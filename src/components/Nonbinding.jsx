@@ -3,7 +3,7 @@ import imgmessage from "../assets/images/png/message.png";
 const Nonbinding = () => {
     return (
         <>
-            <div className='py-5 bg-skyblue2 overflow-hidden'>
+            <div className='py-5 bg-skyblue2 overflow-hidden' id="testimonial">
                 <div className='container max-w-1140'>
                     <div className='row justify-content-center justify-content-md-end align-items-center'>
                         <div className=" col-md-7">
