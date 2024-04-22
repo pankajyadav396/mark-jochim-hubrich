@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import girmimg from '../assets/images/png/girlswiperimg.png'
-import quoteimg from '../assets/images/png/quotes.png'
+import quoteimg from '../assets/images/webp/quotes.webp'
 import { Scrollbar, Pagination, A11y } from 'swiper/modules';
 
 const Client = () => {
@@ -27,8 +27,8 @@ const Client = () => {
                             <div className=" box-line2 h-201 me-3"></div>
                         </div>
                     </div>
-                    <h2 className=' color-black ff-neue text-center fw-light fs-lg2 text-uppercase'>What our <span className=' color-orange'> clients </span> say</h2>
-                    <Swiper
+                    <h2 data-aos="fade-up" className=' color-black ff-neue text-center fw-light fs-lg2 text-uppercase'>What our <span className=' color-orange'> clients </span> say</h2>
+                    <Swiper data-aos="fade-up"
                         direction={'horizontal'}
                         spaceBetween={30}
                         pagination={{

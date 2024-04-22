@@ -1,4 +1,4 @@
-import flower from "../assets/images/png/flowerimg.png"
+import flower from "../assets/images/webp/flowerimg.webp"
 import imgmessage from "../assets/images/png/message.png"
 const Whatget = () => {
     return (
@@ -12,15 +12,15 @@ const Whatget = () => {
                     </div>
                 </div>
                 <div className='d-flex align-items-center justify-content-center flex-column flex-lg-row mt-4'>
-                    <p className=' color-black ff-neue fs-lg2 lh-62'>WHAT YOU
+                    <p data-aos="zoom-in" className=' color-black ff-neue fs-lg2 lh-62'>WHAT YOU
                         <span className='d-block fs-xl lh-77'>
                             WILL<span className=' color-orange'> GET</span>
                         </span>
                     </p>
                     <div className="d-flex flex-column flex-sm-row align-items-center">
-                        <img src={flower} alt="img"  className="ms-2 flower-img" />
+                        <img data-aos="zoom-in" src={flower} alt="img" className="ms-2 flower-img" />
                         <div className="head-box ps-2  max-w-432 ms-4 mt-4 mt-lg-0">
-                            <p className="color-black m-0 ff-poppins fs-sm lh-25">I will show you which steps are necessary for you to finally successfully let go of your EX. And I will support you to look confidently into your new future.</p>
+                            <p data-aos="zoom-in" className="color-black m-0 ff-poppins fs-sm lh-25">I will show you which steps are necessary for you to finally successfully let go of your EX. And I will support you to look confidently into your new future.</p>
                         </div>
                     </div>
                     <div className="d-none d-lg-flex flex-column align-items-end end-0 no-2 box-no2 position-absolute">
@@ -33,24 +33,24 @@ const Whatget = () => {
                 </div>
                 <p className="color-black mt-5 ff-neue fs-sm2 text-center mb-4 pb-1 fw-medium">In a 1:1 live coaching session, we will clarify the following questions in particular:</p>
                 <div className="row">
-                    <div className="col-sm-6 col-lg-4 get-box d-flex align-items-center justify-content-center">
+                    <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className=" get-box d-flex align-items-center justify-content-center">
                         <p>Why does your EX have to disappear from your life forever?</p>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 get-box d-flex align-items-center justify-content-center">
+                    </div> </div>
+                    <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className=" get-box d-flex align-items-center justify-content-center">
                         <p> What should your everyday life as a single person look like now and how can you cope with the new challenges?</p>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 get-box d-flex align-items-center justify-content-start justify-content-lg-center">
+                    </div> </div>
+                    <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className=" get-box d-flex align-items-center justify-content-start justify-content-lg-center">
                         <p>Who are you without your EX?</p>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 get-box d-flex align-items-center justify-content-center">
+                    </div> </div>
+                    <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className=" get-box d-flex align-items-center justify-content-center">
                         <p>How can you handle the divorce quickly and without complications, without worrying about finances or the well-being of the children?</p>
-                    </div>
-                    <div className="col-sm-6 col-lg-4 get-box d-flex align-items-center justify-content-lg-center">
+                    </div> </div>
+                    <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className=" get-box d-flex align-items-center justify-content-lg-center">
                         <p>What new dreams and hopes do you want to live?</p>
-                    </div>
-                    <div className="col-sm-6 col-lg-4  d-flex align-items-center justify-content-center">
+                    </div> </div>
+                    <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className="  d-flex align-items-center justify-content-center">
                         <div className='cursor-pointer d-flex align-items-center color-gradient ff-inter fs-sm lh-24 br-8 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
-                    </div>
+                    </div> </div>
                 </div>
             </div>
         </>

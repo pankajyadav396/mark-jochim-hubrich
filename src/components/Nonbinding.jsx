@@ -36,26 +36,26 @@ const Nonbinding = () => {
                         </div>
                         <div className="col-lg-11 px-4 mt-4">
                             <div className='row justify-content-center'>
-                                <div className=' col-lg-3 col-md-4 col-sm-6 d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
+                                <div data-aos="zoom-in" className="col-lg-3 col-md-4 col-sm-6 p-0"><div className=' d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
                                     <p className=' ff-poppins fs-sm fw-normal m-0 color-white'>How much will the divorce cost?</p>
-                                </div>
-                                <div className=' col-lg-3 col-md-4 col-sm-6 d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
+                                </div></div>
+                                <div data-aos="zoom-in" className="col-lg-3 col-md-4 col-sm-6 p-0"><div className=' d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
                                     <p className=' ff-poppins fs-sm fw-normal m-0 color-white'>What will happen to my children?</p>
-                                </div>
-                                <div className=' col-lg-3 col-md-4 col-sm-6 d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
+                                </div></div>
+                                <div data-aos="zoom-in" className="col-lg-3 col-md-4 col-sm-6 p-0"><div className=' d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
                                     <p className=' ff-poppins fs-sm fw-normal m-0 color-white'>What does my future as a single person look like now?</p>
-                                </div>
-                                <div className=' col-lg-3 col-md-4 col-sm-6 d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
+                                </div></div>
+                                <div data-aos="zoom-in" className="col-lg-3 col-md-4 col-sm-6 p-0"><div className=' d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
                                     <p className=' ff-poppins fs-sm fw-normal m-0 color-white'>How do I rebuild my self-esteem?</p>
-                                </div>
+                                </div></div>
                             </div>
                         </div>
                     </div>
                     <div className=" bg-white max-w-432 br-btn mx-auto mt-5">
-                        <div className=' cursor-pointer mx-auto d-flex align-items-center color-gradient max-w-452 ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
+                        <div data-aos="fade-up" className=' cursor-pointer mx-auto d-flex align-items-center color-gradient max-w-452 ff-inter fs-sm lh-24 fw-medium btn-nonbinding'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     )
 }

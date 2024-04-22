@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/images/png/Logo.png'
+import logo from '../assets/images/webp/Logo.webp'
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Navbarsec = () => {
     const [nav, setNav] = useState(false)

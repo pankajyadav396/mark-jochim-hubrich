@@ -1,5 +1,5 @@
 import React from 'react'
-import imglawyer from '../assets/images/png/lawyerimg.png'
+import imglawyer from '../assets/images/webp/lawyerimg.webp'
 import arrow from '../assets/images/svg/Arrow.svg'
 import ellipse from '../assets/images/svg/lawyerellipse.svg'
 
@@ -16,10 +16,10 @@ const Lawyer = () => {
                 </div>
 
                 <div className="row pt-5 mt-lg-0">
-                    <div className="col-lg-6 col-sm-8 mx-auto text-xl-end">
+                    <div data-aos="fade-up" className="col-lg-6 col-sm-8 mx-auto text-xl-end">
                         <img src={imglawyer} alt="image" className=' max-w-584 me-lg-4 w-100' />
                     </div>
-                    <div className="col-lg-6 mt-4 mt-lg-0 position-relative overflow-hidden z-1">
+                    <div data-aos="fade-up" className="col-lg-6 mt-4 mt-lg-0 position-relative overflow-hidden z-1">
                         <h2 className='text-center text-lg-start  color-black fs-lg2 lh-62 ff-neue mb-1'>LAWYER <span className='color-orange'>&</span> DIVORCE <span className='d-sm-block'>COACH</span></h2>
                         <h3 className='text-center text-lg-start  color-black fs-lg3 ff-neue text-uppercase '><span className='color-orange'>M</span>arc <span className='color-orange'>J</span>oachim <span className='color-orange'>H</span>ubrich</h3>
                         <p className='text-center text-lg-start fs-md color-black ff-neue fw-800 mt-3 mb-3'>About The Tindset Agency Coach</p>

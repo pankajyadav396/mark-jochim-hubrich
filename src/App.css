@@ -295,7 +295,7 @@
 }
 
 .bg-header {
-    background-image: url('/src/assets/images/png/Hero.png');
+    background-image: url('/src/assets/images/webp/Hero.webp');
     background-position: calc(100% - 65%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -383,6 +383,36 @@
     mask-composite: exclude;
 }
 
+.btn-nonbinding {
+    background-color: #fff !important;
+    background: linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    transition: all .27s;
+    border: none;
+    padding: 5px 8px 5px 9px;
+}
+
+.btn-nonbinding::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    border: 2px solid transparent !important;
+    background: linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
 .rotate-270 {
     rotate: 270deg;
 }
@@ -405,7 +435,7 @@
 
 /* ===========================================selfesteem============================================= */
 .bg-self {
-    background-image: url("./assets/images/png/bg-self.png");
+    background-image: url("./assets/images/webp/bg-self.webp");
     background-repeat: no-repeat;
     background-position: center;
     min-height: 360px;
@@ -512,7 +542,7 @@
 
 .bg-target {
     min-height: 623px;
-    background-image: url("./assets/images/png/bgtarget.png");
+    background-image: url("./assets/images/webp/bgtarget.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -619,7 +649,7 @@
 
 /* ====================================================overexsec=========================================================== */
 .bg-over {
-    background-image: url("./assets/images/png/overexbg.png");
+    background-image: url("./assets/images/webp/overexbg.webp");
     background-size: cover;
     min-height: 517px;
     background-repeat: no-repeat;
@@ -710,7 +740,7 @@
 }
 
 .bg-nonbinding {
-    background-image: url('/src/assets/images/png/bg-nonbinding.png');
+    background-image: url('/src/assets/images/webp/bg-nonbinding.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -739,7 +769,7 @@
 
 /*=====================================================footer====================================================*/
 .bg-footer {
-    background-image: url('../src/assets/images/png/footerbg.png');
+    background-image: url('../src/assets/images/webp/footerbg.webp');
     background-size: cover;
     background-position: center;
     padding-top: 90px;

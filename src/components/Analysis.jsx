@@ -39,12 +39,12 @@ const Analysis = () => {
                     </div>
 
                     <div className=' row flex-column flex-lg-row pt-md-5 pb-5'>
-                        <div className=' col-lg-5 col-md-8 mt-lg-4 mx-auto pt-lg-2 separation'>
+                        <div data-aos="fade-up" className=' col-lg-5 col-md-8 mt-lg-4 mx-auto pt-lg-2 separation'>
                             <h2 className='text-center text-lg-start ff-neue fs-md4 color-black'>THE FOUR PHASE OF <span className='d-block fs-lg2'> SEPARATION <span className=' color-orange'>MINFSET </span></span></h2>
                             <p className=' ff-poppins fw-normal mt-3 pt-1 color-black opacity-75 fs-sm'>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
                             <div className='max-w-452 cursor-pointer d-flex align-items-center color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
                         </div>
-                        <div className=' col-lg-7 mt-4 mt-sm-5 mt-lg-0 separation2'>
+                        <div data-aos="fade-up" className=' col-lg-7 mt-4 mt-sm-5 mt-lg-0 separation2'>
                             <Swiper
                                 spaceBetween={30}
                                 effect={'fade'}

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/images/png/footerlogo.png'
+import logo from '../assets/images/webp/footerlogo.webp'
 import { Email, Fbicon, Insta, Twitter } from './Icon';
 const Footersec = () => {
   const d = new Date();
