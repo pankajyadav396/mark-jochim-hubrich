@@ -14,6 +14,7 @@ import Footersec from './components/Footersec';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react';
+import Backtotop from './components/Backtotop';
 
 function App() {
   const [Loader, setLoader] = useState(true);
@@ -34,7 +35,7 @@ function App() {
     <>
       {Loader ? (<div className=' vh-100 position-fixed w-100 d-flex align-items-center flex-column justify-content-center top-0 bottom-0 end-0 bg-body-secondary z-3'>
         <h1 className=' color-gradient ff-neue fw-800 fs-xl anime-bounce'>HUBRICH</h1>
-        <div className=' anime-spin'></div>
+        <div className="loader mt-5 "></div>
       </div>) :
         (
           <div className='position-relative'>
@@ -49,6 +50,7 @@ function App() {
             <Client />
             <Nonbinding />
             <Footersec />
+            <Backtotop />
           </div>)}
     </>
   )
