@@ -3,7 +3,7 @@ import React from 'react'
 const Targetsec = () => {
     return (
         <>
-            <div className='py-5 bg-skyblue' id='benefits'>
+            <div className='py-5 mt-5 bg-skyblue' id='benefits'>
                 <div className='container max-w-1140'>
                     <div className='row justify-content-center justify-content-md-end align-items-center'>
                         <div className="col-lg-5 col-md-7 text-center">

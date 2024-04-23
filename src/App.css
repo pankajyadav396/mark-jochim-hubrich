@@ -305,6 +305,10 @@
     max-width: 1040px !important;
 }
 
+.flower-ellipse1 {
+    top: 20%;
+}
+
 .list-disc {
     list-style-type: disc;
 }
@@ -526,8 +530,8 @@
 }
 
 .box-fault2 {
-    top: 40%;
-    left: 0% !important;
+    bottom: -8%;
+    left: -.7% !important;
 }
 
 .flower-img {
@@ -536,7 +540,6 @@
 
 /* ==============================================targetsec================================================= */
 .bg-skyblue {
-    margin-top: 110px !important;
     background: #F2F8FF;
 }
 
@@ -978,7 +981,7 @@
     }
 
     .box-fault {
-        bottom: -10% !important;
+        bottom: -27% !important;
     }
 
     .box-line {
@@ -1008,7 +1011,7 @@
 
 @media (min-width:1140px) {
     .box-fault {
-        bottom: -18% !important;
+        bottom: -26% !important;
     }
 }
 
