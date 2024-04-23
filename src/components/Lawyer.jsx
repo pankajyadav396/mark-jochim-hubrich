@@ -24,7 +24,7 @@ const Lawyer = () => {
                         <h3 className='text-center text-lg-start  color-black fs-lg3 ff-neue text-uppercase '><span className='color-orange'>M</span>arc <span className='color-orange'>J</span>oachim <span className='color-orange'>H</span>ubrich</h3>
                         <p className='text-center text-lg-start fs-md color-black ff-neue fw-800 mt-3 mb-3'>About The Tindset Agency Coach</p>
                         <p className='text-center text-lg-start fs-md fw-normal color-black opacity-75 ff-poppins mt-3 mb-3'>AMarc J. Hubrich is the founder of the mindset agency specializing in consulting services.</p>
-                        <div className=' mx-auto mx-lg-0 cursor-pointer d-flex align-items-center color-gradient ff-inter ps-4 max-w-350 fs-sm lh-24 fw-medium pe-4 btn-head'><p className="m-0">Learn More About The Tgency</p> <span className='arrow ps-3'><img src={arrow} alt="arrowuimg" /></span></div>
+                        <div className=' mx-auto mx-lg-0 cursor-pointer br-30 d-flex align-items-center color-gradient ff-inter ps-4 max-w-350 fs-sm lh-24 fw-medium pe-4 btn-head'><p className="m-0">Learn More About The Agency</p> <span className='arrow ps-3'><img src={arrow} alt="arrowuimg" /></span></div>
                         <img src={ellipse} alt="img" className='d-none d-lg-block position-absolute z-n1 bottom-0 w-100' />
                     </div>
                 </div>

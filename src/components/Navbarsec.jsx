@@ -26,7 +26,7 @@ const Navbarsec = () => {
                             <li><a onClick={show} href="#testimonial" className='home fs-sm fw-normal ff-neue lh-24 text-decoration-none list-unstyled'>Testimonials</a></li>
                             <li onClick={show} className='ms-2 d-sm-none'><button className='btn-nav color-white ff-inter fw-medium'>Book consultation now</button></li>
                         </ul>
-                        <li className='ms-2 d-none d-sm-block'><button className=' btn-nav color-white ff-inter fw-medium'>Book consultation now</button></li>
+                        <li className='ms-2 d-none d-sm-block'><button className=' btn-nav color-white ff-inter fw-medium'>Book Consultation Now</button></li>
                         <label className='cursor-pointer' id='menu' onClick={show}>
                             {nav ? (
                                 <div id='menu' className='relative z-40'>

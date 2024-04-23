@@ -51,8 +51,8 @@ const Nonbinding = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" bg-white max-w-432 br-btn mx-auto mt-5">
-                        <div data-aos="fade-up" className=' cursor-pointer mx-auto d-flex align-items-center color-gradient max-w-452 ff-inter fs-sm lh-24 fw-medium btn-nonbinding'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
+                    <div data-aos="fade-up" className=" bg-white br-30 max-w-432 br-btn mx-auto mt-5">
+                        <div  className=' cursor-pointer text-capitalize mx-auto d-flex align-items-center color-gradient max-w-452 br-30 ff-inter fs-sm lh-24 btn-nonbinding fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
                     </div>
                 </div>
             </div >

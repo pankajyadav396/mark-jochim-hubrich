@@ -21,11 +21,11 @@ const Targetsec = () => {
             <div className='bg-target h-100 py-md-5 px-3'>
                 <div className='container max-w-1140 py-3 position-relative'>
                     <div className='row justify-content-center justify-content-md-start align-items-center align-items-md-start gap-2 flex-column h-100 py-5'>
-                        <div data-aos="fade-up" className='col-lg-4'> <div className='target-box'>
+                        <div data-aos="fade-up" className='justify-content-center d-flex d-md-block align-items-center p-0'> <div className='target-box'>
                             <p className=' color-white m-0 ff-poppins fw-normal fs-sm lh-25'>You have separated and have the feeling that you can never be happy again and that you will be alone forever.</p>
                         </div>
                         </div>
-                        <div data-aos="fade-up" className='col-lg-4'> <div className='mt-4 target-box'>
+                        <div data-aos="fade-up" className='justify-content-center d-flex d-md-block align-items-center p-0'> <div className='mt-4 target-box'>
                             <p className=' color-white m-0 ff-poppins fw-normal fs-sm lh-25'>How are you supposed to be able to let go of someone who is so entangled with your life? It's impossible, isn't it?</p>
                         </div> </div>
                         <div className='mt-4 target-box2 position-md-absolute end-0'>

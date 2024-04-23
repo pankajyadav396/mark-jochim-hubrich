@@ -40,7 +40,7 @@ const Selfesteem = () => {
                 </div>
             </div>
             <p data-aos="fade-up" className=' ff-poppins color-black pb-1 fw-normal text-center mt-5'>You are not alone! Numerous women before you stood exactly at this point, where you are now.</p>
-            <div data-aos="fade-up"><a href='#' className='  cursor-pointer d-flex align-items-center max-w-432 mx-auto color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></a></div>
+            <div data-aos="fade-up"><a href='#jjjj' className='br-30  cursor-pointer text-capitalize d-flex align-items-center max-w-432 mx-auto color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></a></div>
         </>
     )
 }

@@ -34,13 +34,6 @@ const Client = () => {
                         pagination={{
                             clickable: true,
                         }}
-                        Effect={'cube'}
-                        cubeEffect={{
-                            shadow: false,
-                            slideShadow: false,
-                            shadowOffset: 20,
-                            shadowScale: 0.94
-                        }}
                         modules={[A11y, Scrollbar, Pagination]}
                         breakpoints={{
                             890: {

@@ -25,8 +25,8 @@ const Hero = () => {
                         <p className='ff-poppins mb-2 fs-sm opacity-75 fw-normal color-black'>For women who do not want to be completely dragged down <span className=' d-block'>by a SEPARATION.</span>
                             How to let go of your EX so you can leave him behind
                             without <span className='d-block'>having to run to a therapist right away.</span> </p>
-                        <div className=' d-flex mt-4'>
-                            <div className=' cursor-pointer d-flex text-capitalize align-items-center color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
+                        <div className=' d-flex pt-4'>
+                            <div className=' cursor-pointer br-30 d-flex text-capitalize align-items-center color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
                             <a href="tel:91798774789" className=' d-flex justify-content-center align-items-center'> <img src={call} className='ms-3 cursor-pointer' alt="call" /></a>
                         </div>
                     </div>

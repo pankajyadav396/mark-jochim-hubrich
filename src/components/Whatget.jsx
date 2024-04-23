@@ -54,7 +54,7 @@ const Whatget = () => {
                             <p>What new dreams and hopes do you want to live?</p>
                         </div> </div>
                         <div className="col-sm-6 col-lg-4 p-0" data-aos="zoom-in">  <div className=" h-100 d-flex align-items-center justify-content-center">
-                            <div className='cursor-pointer d-flex align-items-center color-gradient ff-inter fs-sm lh-24 br-8 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
+                            <div className='cursor-pointer br-8 d-flex text-capitalize align-items-center color-gradient ff-inter fs-sm lh-24 br-8 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
                         </div> </div>
                     </div>
                 </div>
