@@ -477,6 +477,14 @@
     border-bottom: 1px solid #F77B0B;
 }
 
+.box-line-analyse {
+    height: 201px !important;
+}
+
+.foot-logo {
+    max-width: 242px;
+}
+
 .get-box {
     min-height: 230px;
     padding-left: 37px !important;

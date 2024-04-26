@@ -22,8 +22,8 @@ const Navbarsec = () => {
                     <div className='d-flex gap-4 align-items-center'>
                         <ul className={`${nav ? "open" : "not-open"
                             } d-flex justify-content-center align-items-center m-0 p-0 gap-4 mobileView`}>
-                            <li><a onClick={show} href="#benefits" className='home fs-sm fw-normal ff-neue  lh-24 text-decoration-none list-unstyled'>Benefits</a></li>
-                            <li><a onClick={show} href="#testimonial" className='home fs-sm fw-normal ff-neue lh-24 text-decoration-none list-unstyled'>Testimonials</a></li>
+                            <li><a onClick={show} href="#benefits" className='home fs-sm fw-normal ff-neue nav-links lh-24 text-decoration-none list-unstyled'>Benefits</a></li>
+                            <li><a onClick={show} href="#testimonial" className='home fs-sm fw-normal ff-neue nav-links lh-24 text-decoration-none list-unstyled'>Testimonials</a></li>
                             <li onClick={show} className='ms-2 d-sm-none'><button className='btn-nav color-white ff-inter fw-medium'>Book consultation now</button></li>
                         </ul>
                         <li className='ms-2 d-none d-sm-block'><button className=' btn-nav color-white ff-inter fw-medium'>Book Consultation Now</button></li>

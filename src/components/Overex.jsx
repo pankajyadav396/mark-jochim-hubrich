@@ -4,7 +4,7 @@ const Overex = () => {
     return (
         <>
             <div className='pt-md-5'>
-                <div className='bg-over mt-5 d-flex flex-column'>
+                <div className='bg-over mt-lg-5 d-flex flex-column'>
                     <div className='container align-items-center justify-content-center h-100 flex-grow-1 d-flex'>
                         <div data-aos="fade-up" className=' box-over py-4 d-flex flex-column justify-content-center align-items-center'>
                             <h2 className=' text-center fs-lg2 color-white text-uppercase mb-2 texxt-center ff-neue'>Are you over your EX?</h2>

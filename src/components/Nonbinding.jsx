@@ -20,7 +20,7 @@ const Nonbinding = () => {
             </div>
             <div className='bg-nonbinding overflow-hidden'>
                 <div className='container'>
-                    <div className='row justify-content-center'>
+                    <div className='row justify-content-center pb-3'>
                         <div className='col-lg-8 px-4'>
                             <div className='row justify-content-center'>
                                 <div className=' col-lg-4 col-sm-6 d-flex d-sm-block justify-content-center align-items-center box-nonbinding'>
@@ -34,7 +34,7 @@ const Nonbinding = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-11 px-4 mt-4">
+                        <div className="col-lg-11 px-4 mt-4 pt-2">
                             <div className='row justify-content-center'>
                                 <div data-aos="zoom-in" className="col-lg-3 col-md-4 col-sm-6 p-0"><div className=' d-flex d-sm-block justify-content-center align-items-center col-12 box-nonbinding'>
                                     <p className=' ff-poppins fs-sm fw-normal m-0 color-white'>How much will the divorce cost?</p>

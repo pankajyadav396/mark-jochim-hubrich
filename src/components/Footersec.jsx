@@ -8,7 +8,7 @@ const Footersec = () => {
     <>
       <div className='bg-footer px-2'>
         <div className=' container text-center position-relative'>
-          <img src={logo} alt="logo" className=' logo' width={241} />
+          <img src={logo} alt="logo" className=' foot-logo' width={241} />
           <p className=' ff-poppins text-center fw-normal mt-3 pt-1 mb-0 fs-sm lh-25 color-white'>(c) <span>{newyear}</span> MARC JOACHIM HUBRICH <span className='d-block'></span>
             All Rights Reserved</p>
           <div className='position-absolute top-0 end-0 d-flex flex-column gap-3'>

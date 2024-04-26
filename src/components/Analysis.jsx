@@ -26,23 +26,23 @@ const Analysis = () => {
                         <div className="d-flex align-items-end ps-1">
                             <p className=' ff-neue color-black fs-md text-name'>ANALYSIS</p>
                             <p className="ff-neue d-inline-block color-black fw-300 rotate-90 fs-lg text-number">04</p>
-                            <div className=" box-line2 me-3"></div>
+                            <div className=" box-line2 box-line-analyse me-3"></div>
                         </div>
                     </div>
                     <div className="d-lg-flex d-none d-xl-none flex-column align-items-baseline start-0 top-0 box-fault position-absolute z-n1">
                         <p className=" fw-300 color-black d-inline-block mb-2 mt-4 pb-1 ff-poppins rotate-270">MJH</p>
                         <div className="d-flex align-items-end ps-1">
-                            <div className=" box-line ms-2"></div>
+                            <div className=" box-line box-line-analyse ms-2"></div>
                             <p className="ff-neue d-inline-block color-black fw-300 rotate-270 fs-lg text-number">04</p>
                             <p className=' ff-neue color-black fs-md  text-name'>ANALYSIS</p>
                         </div>
                     </div>
 
-                    <div className=' row flex-column flex-lg-row pt-md-5 pb-5'>
+                    <div className=' row flex-column flex-lg-row pb-5'>
                         <div data-aos="fade-up" className=' col-lg-5 col-md-8 mt-lg-4 mx-auto pt-lg-2 separation'>
                             <h2 className='text-center text-lg-start ff-neue fs-md4 color-black'>THE FOUR PHASE OF <span className='d-block fs-lg2'> SEPARATION <span className=' color-orange'>MINFSET </span></span></h2>
-                            <p className=' ff-poppins fw-normal mt-3 pt-1 color-black opacity-75 fs-sm'>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
-                            <div className='max-w-452 br-30 cursor-pointer text-capitalize d-flex align-items-center color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
+                            <p className=' ff-poppins fw-normal mt-3 text-center text-lg-start pt-1 color-black opacity-75 fs-sm'>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
+                            <div className='max-w-452 br-30 mx-auto ms-lg-0 cursor-pointer text-capitalize d-flex align-items-center color-gradient ff-inter fs-sm lh-24 fw-medium btn-head'><span><img src={imgmessage} alt="img" className=' max-w-50' /></span><p className="m-0">Book a non-binding initial consultation now</p></div>
                         </div>
                         <div data-aos="fade-up" className=' col-lg-7 mt-4 mt-sm-5 mt-lg-0 separation2'>
                             <Swiper

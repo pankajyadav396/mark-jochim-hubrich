@@ -17,7 +17,7 @@ const Notfault = () => {
                         </div>
                     </div>
                 </div>
-                <p data-aos="fade-up" className='color-black px-3 fw-800 ff-neue text-center mt-5 text-capitalize'>How would you know when you are busy with completely different things at the moment:</p>
+                <p data-aos="fade-up" className='color-black px-3 fw-800 ff-neue text-center mt-5 mb-4 text-capitalize'>How would you know when you are busy with completely different things at the moment:</p>
             </div>
         </>
     )
